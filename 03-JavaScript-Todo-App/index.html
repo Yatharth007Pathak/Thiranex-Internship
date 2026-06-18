@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List App | Yatharth Pathak</title>
+
+    <meta name="description" content="Interactive To-Do List Application built using HTML, CSS, JavaScript and Local Storage.">
+    <meta name="keywords" content="To Do App, JavaScript Project, CRUD Operations, Local Storage">
+    <meta name="author" content="Yatharth Pathak">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>To-Do List Application</h1>
+            <p>
+                Manage your daily tasks efficiently with full CRUD functionality and local storage support.
+            </p>
+        </header>
+
+        <section class="todo-input-section">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task..."
+                autocomplete="off"
+            >
+
+            <button id="addTaskBtn">
+                Add Task
+            </button>
+
+        </section>
+
+        <section class="filter-section">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="active">
+                Active
+            </button>
+
+            <button class="filter-btn" data-filter="completed">
+                Completed
+            </button>
+
+        </section>
+
+        <section class="task-section">
+
+            <ul id="taskList">
+                <!-- Tasks will be added dynamically -->
+            </ul>
+
+        </section>
+
+        <footer class="task-footer">
+
+            <div class="task-info">
+                <span id="taskCount">
+                    0 Tasks Remaining
+                </span>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
