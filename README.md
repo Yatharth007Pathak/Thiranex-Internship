@@ -54,3 +54,34 @@ https://yatharth007-portfolio-css.netlify.app/
 - JavaScript
 - CSS Grid
 - Flexbox
+
+
+# Task 3: JavaScript Logic & State Management
+
+A fully functional To-Do List Application built using JavaScript, demonstrating DOM manipulation, event handling, CRUD operations, filtering, and local data persistence using Local Storage.
+
+## Features
+- Create new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Automatic data persistence using Local Storage
+- Filter tasks by:
+  - All
+  - Active
+  - Completed
+- Dynamic DOM manipulation
+- Event delegation for efficient event handling
+- Responsive user interface
+- Task counter display
+- Data retention after browser refresh
+
+## Live Demo
+https://yatharth007-todo-app.netlify.app/
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- DOM Manipulation
+- Local Storage API
