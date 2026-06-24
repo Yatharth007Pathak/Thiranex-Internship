@@ -85,3 +85,31 @@ https://yatharth007-todo-app.netlify.app/
 - JavaScript (ES6)
 - DOM Manipulation
 - Local Storage API
+
+
+# Task 4: Asynchronous JavaScript & RESTful APIs
+
+A modern and responsive Weather Dashboard developed using JavaScript, Fetch API, Async/Await, and the OpenWeatherMap REST API. The application provides real-time weather information, detailed weather metrics, location-based weather updates, and multi-day forecasts through a user-friendly interface.
+
+## Features
+- Real-Time Weather Information
+- Search weather by city name
+- Display current temperature, Show weather conditions and descriptions
+- Advanced Weather Metrics like Humidity, Wind Speed, Atmospheric Pressure, Visibility, Sunrise & Sunset Time
+- 5-Day Weather Forecast
+- Geolocation Support, Retrieve weather using current device location
+- Modern User Interface with Responsive design
+- Mobile, Tablet, and Desktop compatibility
+- Invalid city detection, API request error handling
+
+## Live Demo
+https://weathervista-yatharth.netlify.app
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Fetch API
+- Async/Await
+- OpenWeatherMap API
+- Local Storage API
